@@ -1,0 +1,61 @@
+all the features
+must have - Data coming from, user and device management, alert generation
+good to have - historical data [Activity of Device from last 30 days and it's location]
+luxury - where the device will go later
+
+not very necessary
+priorities
+
+
+
+
+splash screen -> demo screen [UI for the rooms 1 and 2] and their list of assets, search [findpage]
+-> list of asset with a side tab last seen data (Location of the Product) of the asset -> add option beside the find tab -> add asset where we take the foll inputs : 1) ID of BLE
+				      2) Date of Issue
+				      3) Description
+Add location -> Location id
+		Name
+		Location
+		Description				      
+
+
+
+Screen 2 -> in the demo screen - on top of each other
+
+
+
+screen 5 -> with pi chart displaying the assets most visited location
+
+every gateway will publish its data to 2 topics
+
+beacon goes from room 1 to room 2 and the gateways publish the data as shift of the device happen.
+
+
+On priority for Screen 2 i.e. the Demo Screen
+
+
+
+
+
+
+
+The message is in .json format that we will have to parse from the MQTT Broker and display the same on the screen.
+
+
+
+Build a Good Demo for the screen 2
+
+
+2 gateways and 6 beacons
+
+
+
+esps for either gateway or beacon
+
+
+
+for website :
+1) UI
+2) MQTT Broker Data Parsing
+3) Display of Data to Screen
+4) 
